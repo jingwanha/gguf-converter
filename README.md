@@ -26,9 +26,9 @@ git clone https://huggingface.co/beomi/Llama-3-Open-Ko-8B
 <br><br><br>
 # GGUF 포멧으로 변경
 ```bash
-git clone this
 
-# llama.cpp git pull 후 convert에 필요한 패키지 설치
+# llama.cpp git clone 후 convert에 필요한 패키지 설치
+git clone https://github.com/ggerganov/llama.cpp.git
 cd llama.cpp
 git pull
 pip install -r reqiurement.txt
